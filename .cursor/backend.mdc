@@ -1,0 +1,14 @@
+---
+description: "Convenciones para el backend FastAPI"
+globs: "*.py"
+alwaysApply: false
+---
+
+# Instrucciones del backend
+
+- Utiliza Python 3.13.
+- Usa FastAPI para implementar endpoints REST.
+- Utiliza Pydantic para validar datos.
+- Mantén separadas las capas de API, servicios y persistencia.
+- Escribe pruebas con pytest.
+- Antes de modificar código existente, analiza sus dependencias.
